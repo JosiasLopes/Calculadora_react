@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.Titulo{
+	font-family: 'RobotoMono';
+	src: url('./fonts/RobotoMono-Thin.ttf');
+	color:rgb(220,220,220);
+	font-size: 2.1em;
+	text-align: center;
+}
+
+

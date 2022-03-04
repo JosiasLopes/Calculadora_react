@@ -1,0 +1,35 @@
+
+
+.calculator{
+	height:320px;
+	width:235px;
+	border-radius: 5px;
+	overflow: hidden;
+	
+	
+	font-family: 'RobotoMono';
+	src: url('./fonts/RobotoMono-Thin.ttf');
+	
+	display:grid;	
+
+	/* faz a divisão em 4 colunas com 25% do tamanho da tela
+		e 6 linhas onde a primeiroa é um Fragment fazendo com que pegue o espaço disponivel na tela
+	*/
+	grid-template-columns: repeat(4,25%);
+	grid-template-rows: 1fr 48px 48px 48px 48px 48px;
+
+}
+
+*{
+	font-family: 'RobotoMono';
+	src: url('./fonts/RobotoMono-Thin.ttf');
+}
+
+body{
+	display:flex;
+	height: 100vh;
+	justify-content: center;
+	text-align: center;
+	background: linear-gradient(to right, rgb(83,105,118),rgb(41,26,73));
+	
+}

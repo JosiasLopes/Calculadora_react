@@ -1,0 +1,43 @@
+:root{
+
+--bg-button:rgb(190,190,190);
+--border-button: solid 1px #888;
+--bg-active-button:rgb(150,150,150);
+
+}
+
+/*
+acima foi definido duas variaveis com a pseu-classe root
+para usa-las use a função var
+*/
+.button{
+	font-size: 1.4em;
+	background-color: var(--bg-button);
+	border:none;
+	border-bottom: var(--border-button);
+	border-right: var(--border-button);
+	outline:none;
+}
+
+.button:active{
+	background-color: var(--bg-active-button);
+}
+
+/* faz o botao ocupar 2 colunas*/
+.button.double{
+	grid-column: span 2;
+}
+
+.button.triple{
+	grid-column: span 3;
+}
+
+.button.operation{
+	background-color: #fab231;
+	color: #ffffff;
+}
+
+.button.operation:active{
+	background-color: #fab231cc;
+	color: #ffffff;
+}
